@@ -23,3 +23,13 @@ We also provide the code to run DGI on the dataset as below:
 ```
 python run_airport.py --file-path=data/usa-airports.edgelist --label-path=data/labels-usa-airports.txt --n-dgi-epochs=100  --n-hidden=32 --self-loop --gpu=0 --n-layers=1 --dgi-lr=0.001 --model-id=2 --model-type=0
 ```
+
+## Computer the EGI gap term
+### from edgelist
+```
+python compute_bound_filepath.py --args.file-path=data/europe-aiports.edgelist --args.label-path=data/usa-aiports.edgelist
+```
+### from pickle file for synthetic experiment
+```
+python compute_bound_pickle.py --args.file-path=data/barabasi_small_graphs_full.pkl --args.label-path=data/forest_fire_graphs_full.pkl
+```
