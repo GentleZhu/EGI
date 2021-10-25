@@ -1,5 +1,5 @@
 # EGI
-Officialrepository for Ego-graph Information Maximization
+Official repository for Ego-graph Information Maximization
 
 ## Requirements
 Please use old version of DGL library (0.4.3) to run the original code. 
