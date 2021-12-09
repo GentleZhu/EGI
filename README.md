@@ -1,5 +1,16 @@
 # EGI
-Official repository for Ego-graph Information Maximization
+Source code for ["Transfer Learning of Graph Neural Networks with Ego-graph Information Maximization"](https://proceedings.neurips.cc/paper/2021/file/0dd6049f5fa537d41753be6d37859430-Paper.pdf), published in NeurIPS 2021.
+
+
+If you find our paper useful, please consider cite the following paper.
+```
+@article{zhu2020transfer,
+  title={Transfer learning of graph neural networks with ego-graph information maximization},
+  author={Zhu, Qi and Yang, Carl and Xu, Yidan and Wang, Haonan and Zhang, Chao and Han, Jiawei},
+  journal={arXiv preprint arXiv:2009.05204},
+  year={2020}
+}
+```
 
 ## Requirements
 Please use old version of DGL library (0.4.3) to run the original code. 
